@@ -6,7 +6,7 @@ require_once __DIR__.'/userAgent.php';
 require __DIR__ . '/smshub.php';
 
 //APIKEY SMSHUB
-$key = '';
+$key = 'https://api.wnrstore.com/api/v1/user/data?secret_key=bfbc7cc8-c691-5933-9774-66d279335393';
 
 if($key == null) {
     die('Masukan apikey di line 9 goblog!!');
